@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container  justify-between mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-4 lg:px-0">
         {/* parang letter to */}
         <div className="">
-          <h3 className="text-lg text-gray-800 mb-4">Reinder Letter</h3>
+          <h3 className="text-lg text-gray-800 mb-4">Reminder Letter</h3>
           <p className="text-gray-500 mb-4 text-wrap">
             Krispy Kreme and other Max's Group Inc.-affiliated companies own the
             trademarks, logos and service marks displayed on this site and users
@@ -85,7 +85,6 @@ const Footer = () => {
                 <img
                   src="http://localhost:5173/src/assets/frozenLemonade.jpg"
                   className="h-24 w-24 object-cover   "
-
                 />
                 <img
                   src="http://localhost:5173/src/assets/frozenStrawberry.jpg"
@@ -170,17 +169,17 @@ const Footer = () => {
               <FaXTwitter className="w-8 h-8" />
             </a>
           </div>
-          <p className="text-gray-800 font-bold">Call her</p>
+          <p className="text-gray-800 font-bold">Call Us Now</p>
           <p className="inline-block mr-2 text-gray-600">288879000</p>
           <p className=" mr-2 mb-4 font-semibold text-lg">Location:</p>
 
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3859.6042062538454!2d121.0621111!3d14.6783889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDQwJzQyLjIiTiAxMjHCsDAzJzQzLjYiRQ!5e0!3m2!1sen!2sph!4v1748918287815!5m2!1sen!2sph"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14464.01373918173!2d-71.01029974889181!3d24.999999245411534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89451ab5034cb7ab%3A0xb600ecf3df7aca4d!2sBermuda%20Triangle!5e0!3m2!1sen!2sph!4v1749628570286!5m2!1sen!2sph"
             width="350"
             height="350"
             allowFullScreen={true}
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
 
@@ -216,10 +215,10 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-gray-500 font-bold transition-colors"
-                to="https://delivery.dencios.com.ph/"
+                to="https://delivery.yellowcabpizza.com/"
               >
                 <img
-                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/Dencios.png"
+                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/YellowCab.png"
                   className="w-24 h-24 object-contain rounded-full ring-1 ring-gray-500 p-4 "
                 />
               </Link>
@@ -227,10 +226,10 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-gray-500 font-bold transition-colors"
-                to="https://delivery.dencios.com.ph/"
+                to="https://delivery.teriyakiboy.com.ph/"
               >
                 <img
-                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/Dencios.png"
+                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/TeriyakiBoy.png"
                   className="w-24 h-24 object-contain rounded-full ring-1 ring-gray-500 p-4 "
                 />
               </Link>
@@ -238,10 +237,10 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-gray-500 font-bold transition-colors"
-                to="https://delivery.dencios.com.ph/"
+                to="https://now.krispykreme.com.ph/"
               >
                 <img
-                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/Dencios.png"
+                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/kk-nav-logo-1.png"
                   className="w-24 h-24 object-contain rounded-full ring-1 ring-gray-500 p-4 "
                 />
               </Link>
@@ -249,10 +248,10 @@ const Footer = () => {
             <li>
               <Link
                 className="hover:text-gray-500 font-bold transition-colors"
-                to="https://delivery.dencios.com.ph/"
+                to="https://delivery.jambajuice.ph/?/maintenance  "
               >
                 <img
-                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/Dencios.png"
+                  src="https://mgi-deliveryportal.s3.amazonaws.com/assets/JambaJuice.png"
                   className="w-24 h-24 object-contain rounded-full ring-1 ring-gray-500 p-4 "
                 />
               </Link>
